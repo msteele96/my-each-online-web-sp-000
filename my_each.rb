@@ -1,6 +1,4 @@
-def my_each(array) do|i|
-  {puts i}
-end
+def my_each(array)
   while array.index(i) < array.length
     yield array[i]
   end
