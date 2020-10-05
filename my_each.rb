@@ -1,5 +1,4 @@
-def my_each(array) {while i < array.length
-
-end}
-  # code here
+def my_each(array) do |i|
+  puts i
+  return array
 end
